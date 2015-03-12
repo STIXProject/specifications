@@ -1,9 +1,9 @@
 # STIX Specifications
 DRAFT STIX specification documents for version 1.1.1
 
-This repository contains a DRAFT UML data model for STIX 1.1.1, together with accompanying specification documentation. This effort is to lay the foundation for future work and describes only the *current* state of the language.
+This repository contains a DRAFT UML data model for STIX 1.1.1, together with accompanying specification documentation. This effort is to lay the foundation for future work and describes only the **current** state of the language.
 
-When the final 1.1.1 specification is completed, it will be updated to describe STIX version 1.2.  Because STIX version 1.2 is under development, it would be premature to try to capture any changes it will include. 
+When the final specification is completed, it will be updated to describe STIX version 1.2.  Because STIX version 1.2 is under development, it would be premature to try to capture any changes it will include. 
 
 ### Data Models
 
@@ -35,6 +35,6 @@ The directory *documents* contains the specification documents.  Only the ones l
 
 Observables will be covered in the CybOX specification documents, which will be developed once the STIX specification documents are final.
 
-As drafts, these documents are works in progress – and we expect them to change, perhaps significantly, as we continue their development. Most of all, we expect comments and suggestions from the community to play a large role in refining them. However, our main goal with the release of these draft document are to be transparent in their development.  At this time you should refrain from providing detailed comments until the documents are more mature. Basing any implementation on these documents until they are final is *strongly* discouraged.
+As drafts, these documents are works in progress – and we expect them to change, perhaps significantly, as we continue their development. Most of all, we expect comments and suggestions from the community to play a large role in refining them. However, our main goal with the release of these draft document are to be transparent in their development.  At this time you should refrain from providing detailed comments until the documents are more mature. Basing any implementation on these documents until they are final is **strongly** discouraged.
 
 
