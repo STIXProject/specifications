@@ -20,7 +20,7 @@ The data models are represented using XMI.  They were created using Rational Sof
 The directory *documents* contains the specification documents.  Only the ones listed below in bold are currently available:
 
 * **STIX_Campaign_Draft.docx**
-* STIX_COA_Draft.docx
+* **STIX_COA_Draft.docx**
 * STIX_Common_Draft.docx
 * STIX_Core_Draft.docx
 * STIX_DataMarking_Draft.docx
