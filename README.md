@@ -24,7 +24,7 @@ The directory *documents* contains the specification documents.  Only the ones l
 * STIX_Common_Draft.docx
 * STIX_Core_Draft.docx
 * STIX_DataMarking_Draft.docx
-* STIX_ExploitTarget_Draft.docx
+* **STIX_ExploitTarget_Draft.docx**
 * STIX_Extensions_Draft.docx
 * STIX_Incident_Draft.docx
 * **STIX_Indicator_Draft.docx**
