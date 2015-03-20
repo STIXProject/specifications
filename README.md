@@ -35,6 +35,6 @@ The directory *documents* contains the specification documents.  Only the ones l
 
 Observables will be covered in the CybOX specification documents, which will be developed once the STIX specification documents are final.
 
-As drafts, these documents are works in progress – and we expect them to change, perhaps significantly, as we continue their development. Most of all, we expect comments and suggestions from the community to play a large role in refining them. However, our main goal with the release of these draft document are to be transparent in their development.  At this time you should refrain from providing detailed comments until the documents are more mature. Basing any implementation on these documents until they are final is *strongly* discouraged.
+As drafts, these documents are works in progress – and we expect them to change, perhaps significantly, as we continue their development. Most of all, we expect comments and suggestions from the community to play a large role in refining them. However, our main goal with the release of these draft documents is to be transparent in their development.  At this time you should refrain from providing detailed comments until the documents are more mature. Basing any implementation on these documents until they are final is *strongly* discouraged.
 
 
