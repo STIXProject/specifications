@@ -30,7 +30,7 @@ The directory *documents* contains the specification documents.  Only the ones l
 * **STIX_Indicator_Draft.docx**
 * STIX_SpecOverview_Draft.docx
 * **STIX_ThreatActor_Draft.docx**
-* STIX_TTP_Draft.docx
+* **STIX_TTP_Draft.docx**
 * STIX_Vocab_Draft.docx
 
 Observables will be covered in the CybOX specification documents, which will be developed once the STIX specification documents are final.
