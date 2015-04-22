@@ -33,6 +33,8 @@ The directory *documents* contains the specification documents.  Only the ones l
 * **STIX_TTP_Draft.docx**
 * STIX_Vocab_Draft.docx
 
+The subdirectory *pdf versions* contains PDF versions of the available documents.
+
 Observables will be covered in the CybOX specification documents, which will be developed once the STIX specification documents are final.
 
 As drafts, these documents are works in progress – and we expect them to change, perhaps significantly, as we continue their development. Most of all, we expect comments and suggestions from the community to play a large role in refining them. However, our main goal with the release of these draft documents is to be transparent in their development. Basing any implementation on these documents until they are final is *strongly* discouraged.
