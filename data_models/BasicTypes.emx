@@ -215,7 +215,9 @@
         <generalization xmi:id="_ooOmgD0SEeSNGuCruFlVfw" general="_mNHagD0IEeSNGuCruFlVfw"/>
       </packagedElement>
       <packagedElement xmi:type="uml:DataType" xmi:id="_HDNGsCfUEeStUNo8XfPqKw" name="PositiveInteger"/>
-      <packagedElement xmi:type="uml:DataType" xmi:id="_3v7iMCfZEeStUNo8XfPqKw" name="HexBinary"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_3v7iMCfZEeStUNo8XfPqKw" name="HexBinary">
+        <generalization xmi:id="_BJBYwO9tEeSI-IL27L9x_A" general="_mNHagD0IEeSNGuCruFlVfw"/>
+      </packagedElement>
       <packagedElement xmi:type="uml:DataType" xmi:id="_LKfkkCh2EeSBR-q2WYPBpQ" name="QualifiedName">
         <ownedComment xmi:id="_RgiR8LLhEeSNIJxw7Cl_2g" annotatedElement="_LKfkkCh2EeSBR-q2WYPBpQ">
           <body>&lt;p>STIX IDs should be unique for all instances of content and are implemented as &lt;a href=&quot;http://en.wikipedia.org/wiki/QName&quot;>XML QNames.&lt;/a>&lt;/p>&lt;p>Each ID includes both a namespace portion (optional) and an ID portion (required) separated by a colon (:). The recommend approach to creating STIX IDs is to define a producer namespace and namespace prefix, then use the form:&lt;/p>&lt;p>[ns prefix]:[construct type]-[GUID]&lt;/p>&lt;p>The &quot;ns prefix&quot; should be a namespace prefix bound to a namespace owned/controlled by the producer of the content.&lt;/p>&lt;p>&lt;a href=&quot;http://en.wikipedia.org/wiki/QName&quot;>&lt;/a>&lt;/p></body>
@@ -235,9 +237,9 @@
         </ownedComment>
         <generalization xmi:id="_I-kbsD0TEeSNGuCruFlVfw" general="_mNHagD0IEeSNGuCruFlVfw"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:DataType" xmi:id="_J595AFuIEeSJlrv31qlQ9A" name="RestrictedString">
+      <packagedElement xmi:type="uml:DataType" xmi:id="_J595AFuIEeSJlrv31qlQ9A" name="NoEmbeddedQuotesString">
         <ownedComment xmi:id="_DMdioLLREeSNIJxw7Cl_2g" annotatedElement="_J595AFuIEeSJlrv31qlQ9A">
-          <body>&lt;p>Used for properties that used to be XSD attributes of type xs:string&lt;/p></body>
+          <body>&lt;p>&lt;span style=&quot;font-size:8pt;&quot;>&lt;span style=&quot;font-family:&quot;Calibri&quot;,sans-serif;&quot;>The &lt;/span>&lt;span style=&quot;font-family:Courier New;&quot;>RestrictedString&lt;/span>&lt;span style=&quot;font-family:&quot;Calibri&quot;,sans-serif;&quot;> data type is a restriction on the &lt;/span>&lt;span style=&quot;font-family:Courier New;&quot;>BasicString&lt;/span>&lt;span style=&quot;font-family:&quot;Calibri&quot;,sans-serif;&quot;> data type such that it does not include any double quote characters. This data type captures properties that were attributes in the XML model.&lt;/span>&lt;/span>&lt;/p></body>
         </ownedComment>
         <generalization xmi:id="_umS3AFuIEeSJlrv31qlQ9A" general="_mNHagD0IEeSNGuCruFlVfw"/>
       </packagedElement>
@@ -268,6 +270,7 @@
         </ownedComment>
         <generalization xmi:id="_vCBk8I92EeS93snkBDaEeg" general="_mNHagD0IEeSNGuCruFlVfw"/>
       </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_KaT7ENC6EeS5z7fISv6cYA" name="PatternExpression"/>
     </packagedElement>
     <profileApplication xmi:id="_UXg-k3NFEeSIT9gV5xb-TQ">
       <eAnnotations xmi:id="_UXg-lHNFEeSIT9gV5xb-TQ" source="http://www.eclipse.org/uml2/2.0.0/UML">

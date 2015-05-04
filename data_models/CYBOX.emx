@@ -30668,13 +30668,10 @@ e.g. 39 Baker Street North</body>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-X5a4Ce8EeSsPJPct_PmgQ"/>
         </ownedAttribute>
       </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_-X5a4Se8EeSsPJPct_PmgQ" name="ObservableType">
+      <packagedElement xmi:type="uml:Class" xmi:id="_-X5a4Se8EeSsPJPct_PmgQ" name="ObservableType" clientDependency="_3pU2YNC7EeS5z7fISv6cYA">
         <ownedComment xmi:id="_-X6pACe8EeSsPJPct_PmgQ">
           <body>The ObservableType is a type representing a description of a single cyber observable.</body>
         </ownedComment>
-        <generalization xmi:id="_5Rqm0DRzEeS8gqzBg1N7RA">
-          <general xmi:type="uml:Class" href="platform:/resource/stix/STIX.emx#_sgqZgDRzEeS8gqzBg1N7RA?STIX/indicator/DraftIndicatorExpressionType?"/>
-        </generalization>
         <ownedAttribute xmi:id="_-X73ISe8EeSsPJPct_PmgQ" name="id">
           <ownedComment xmi:id="_-X8eMCe8EeSsPJPct_PmgQ">
             <body>The id field specifies a unique id for this Observable.</body>
@@ -30741,6 +30738,10 @@ e.g. 39 Baker Street North</body>
           </ownedComment>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-YQAMCe8EeSsPJPct_PmgQ"/>
         </ownedAttribute>
+        <interfaceRealization xmi:id="_3pU2YNC7EeS5z7fISv6cYA" client="_-X5a4Se8EeSsPJPct_PmgQ">
+          <supplier xmi:type="uml:Interface" href="platform:/resource/basicTypes/BasicTypes.emx#_KaT7ENC6EeS5z7fISv6cYA?BasicTypes/basicDataTypes/PatternExpression?"/>
+          <contract href="platform:/resource/basicTypes/BasicTypes.emx#_KaT7ENC6EeS5z7fISv6cYA?BasicTypes/basicDataTypes/PatternExpression?"/>
+        </interfaceRealization>
         <nestedClassifier xmi:type="uml:Class" xmi:id="_-YQAMSe8EeSsPJPct_PmgQ" name="anonymous">
           <ownedAttribute xmi:id="_-YQnQSe8EeSsPJPct_PmgQ" name="Object">
             <ownedComment xmi:id="_-YQnQye8EeSsPJPct_PmgQ">
