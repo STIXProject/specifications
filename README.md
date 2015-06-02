@@ -3,7 +3,7 @@ DRAFT STIX specification documents for version 1.1.1
 
 This repository contains a DRAFT UML data model for STIX 1.1.1, together with accompanying specification documentation. This effort is to lay the foundation for future work and describes only the *current* state of the language.
 
-When the final specification is completed, it will be updated to describe STIX version 1.2.  Because STIX version 1.2 is under development, it would be premature to try to capture any changes it will include. 
+When the final specification is completed, it will be updated to describe STIX version 1.2.  
 
 ### Data Models
 
@@ -14,6 +14,12 @@ The directory *data_models* contains three separate UML models:
 * BasicTypes.emx
 
 The data models are represented using XMI.  They were created using Rational Software Architect (RSA).  It is expected that they will be able to be imported into other UML tools.  Currently, there are no diagrams in the CybOX model.
+
+In addition, we have provided the UML models in UML 2.2 open-source format, which might be easier to import into your UML tool.  However, that format does not support diagrams.
+
+* STIX.uml
+* CYBOX.uml
+* BasicTypes.uml
 
 ### Specification Documents
 
