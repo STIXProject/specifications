@@ -5,7 +5,7 @@ This repository contains a DRAFT UML data model for STIX 1.2, together with acco
 
 ### Data Models
 
-* not currently available *
+*not currently available*
 
 ### Specification Documents
 
