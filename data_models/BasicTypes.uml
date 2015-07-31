@@ -1,78 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Package xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_IQ0onwffEeWHMeLsGlMIVw" name="BasicTypes">
-  <packageImport xmi:id="_IQ0ooAffEeWHMeLsGlMIVw">
+<uml:Package xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_imG0ODedEeWKi8h462PcDQ" name="BasicTypes">
+  <packageImport xmi:id="_imG0OTedEeWKi8h462PcDQ">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
-  <packagedElement xmi:type="uml:Package" xmi:id="_IQ0ooQffEeWHMeLsGlMIVw" name="basicDataTypes">
-    <packagedElement xmi:type="uml:DataType" xmi:id="_IQ0oogffEeWHMeLsGlMIVw" name="Float"/>
-    <packagedElement xmi:type="uml:DataType" xmi:id="_IQ0oowffEeWHMeLsGlMIVw" name="NonNegativeInteger"/>
-    <packagedElement xmi:type="uml:DataType" xmi:id="_IQ0opAffEeWHMeLsGlMIVw" name="DateTime">
-      <ownedComment xmi:id="_IQ0opQffEeWHMeLsGlMIVw" annotatedElement="_IQ0opAffEeWHMeLsGlMIVw">
+  <packagedElement xmi:type="uml:Package" xmi:id="_imG0OjedEeWKi8h462PcDQ" name="basicDataTypes">
+    <packagedElement xmi:type="uml:DataType" xmi:id="_imG0OzedEeWKi8h462PcDQ" name="Float"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_imG0PDedEeWKi8h462PcDQ" name="NonNegativeInteger"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_imG0PTedEeWKi8h462PcDQ" name="DateTime">
+      <ownedComment xmi:id="_imG0PjedEeWKi8h462PcDQ" annotatedElement="_imG0PTedEeWKi8h462PcDQ">
         <body>&lt;p>see ISO-8601&lt;/p></body>
       </ownedComment>
-      <generalization xmi:id="_IQ0opgffEeWHMeLsGlMIVw" general="_IQ0osAffEeWHMeLsGlMIVw"/>
+      <generalization xmi:id="_imG0PzedEeWKi8h462PcDQ" general="_imG0STedEeWKi8h462PcDQ"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:DataType" xmi:id="_IQ0opwffEeWHMeLsGlMIVw" name="PositiveInteger"/>
-    <packagedElement xmi:type="uml:DataType" xmi:id="_IQ0oqAffEeWHMeLsGlMIVw" name="HexBinary">
-      <generalization xmi:id="_IQ0oqQffEeWHMeLsGlMIVw" general="_IQ0osAffEeWHMeLsGlMIVw"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_imG0QDedEeWKi8h462PcDQ" name="PositiveInteger"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_imG0QTedEeWKi8h462PcDQ" name="HexBinary">
+      <generalization xmi:id="_imG0QjedEeWKi8h462PcDQ" general="_imG0STedEeWKi8h462PcDQ"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:DataType" xmi:id="_IQ0oqgffEeWHMeLsGlMIVw" name="QualifiedName">
-      <ownedComment xmi:id="_IQ0oqwffEeWHMeLsGlMIVw" annotatedElement="_IQ0oqgffEeWHMeLsGlMIVw">
+    <packagedElement xmi:type="uml:DataType" xmi:id="_imG0QzedEeWKi8h462PcDQ" name="QualifiedName">
+      <ownedComment xmi:id="_imG0RDedEeWKi8h462PcDQ" annotatedElement="_imG0QzedEeWKi8h462PcDQ">
         <body>&lt;p>STIX IDs should be unique for all instances of content and are implemented as &lt;a href=&quot;http://en.wikipedia.org/wiki/QName&quot;>XML QNames.&lt;/a>&lt;/p>&lt;p>Each ID includes both a namespace portion (optional) and an ID portion (required) separated by a colon (:). The recommend approach to creating STIX IDs is to define a producer namespace and namespace prefix, then use the form:&lt;/p>&lt;p>[ns prefix]:[construct type]-[GUID]&lt;/p>&lt;p>The &quot;ns prefix&quot; should be a namespace prefix bound to a namespace owned/controlled by the producer of the content.&lt;/p>&lt;p>&lt;a href=&quot;http://en.wikipedia.org/wiki/QName&quot;>&lt;/a>&lt;/p></body>
       </ownedComment>
-      <generalization xmi:id="_IQ0orAffEeWHMeLsGlMIVw" general="_IQ0osAffEeWHMeLsGlMIVw"/>
+      <generalization xmi:id="_imG0RTedEeWKi8h462PcDQ" general="_imG0STedEeWKi8h462PcDQ"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:DataType" xmi:id="_IQ0orQffEeWHMeLsGlMIVw" name="URI">
-      <ownedComment xmi:id="_IQ0orgffEeWHMeLsGlMIVw" annotatedElement="_IQ0orQffEeWHMeLsGlMIVw">
+    <packagedElement xmi:type="uml:DataType" xmi:id="_imG0RjedEeWKi8h462PcDQ" name="URI">
+      <ownedComment xmi:id="_imG0RzedEeWKi8h462PcDQ" annotatedElement="_imG0RjedEeWKi8h462PcDQ">
         <body>&lt;p>https://tools.ietf.org/html/rfc3986&lt;/p></body>
       </ownedComment>
-      <generalization xmi:id="_IQ0orwffEeWHMeLsGlMIVw" general="_IQ0osAffEeWHMeLsGlMIVw"/>
+      <generalization xmi:id="_imG0SDedEeWKi8h462PcDQ" general="_imG0STedEeWKi8h462PcDQ"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:DataType" xmi:id="_IQ0osAffEeWHMeLsGlMIVw" name="BasicString"/>
-    <packagedElement xmi:type="uml:DataType" xmi:id="_IQ0osQffEeWHMeLsGlMIVw" name="CVE_ID">
-      <ownedComment xmi:id="_IQ0osgffEeWHMeLsGlMIVw" annotatedElement="_IQ0osQffEeWHMeLsGlMIVw">
+    <packagedElement xmi:type="uml:DataType" xmi:id="_imG0STedEeWKi8h462PcDQ" name="BasicString"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_imG0SjedEeWKi8h462PcDQ" name="CVE_ID">
+      <ownedComment xmi:id="_imG0SzedEeWKi8h462PcDQ" annotatedElement="_imG0SjedEeWKi8h462PcDQ">
         <body>&lt;p>pattern is: &quot;CVE-\d\d\d\d-\d+&quot;&lt;/p></body>
       </ownedComment>
-      <generalization xmi:id="_IQ0oswffEeWHMeLsGlMIVw" general="_IQ0osAffEeWHMeLsGlMIVw"/>
+      <generalization xmi:id="_imG0TDedEeWKi8h462PcDQ" general="_imG0STedEeWKi8h462PcDQ"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:DataType" xmi:id="_IQ0otAffEeWHMeLsGlMIVw" name="NoEmbeddedQuotesString">
-      <ownedComment xmi:id="_IQ0otQffEeWHMeLsGlMIVw" annotatedElement="_IQ0otAffEeWHMeLsGlMIVw">
+    <packagedElement xmi:type="uml:DataType" xmi:id="_imG0TTedEeWKi8h462PcDQ" name="NoEmbeddedQuotesString">
+      <ownedComment xmi:id="_imG0TjedEeWKi8h462PcDQ" annotatedElement="_imG0TTedEeWKi8h462PcDQ">
         <body>&lt;p>&lt;span style=&quot;font-size:8pt;&quot;>&lt;span style=&quot;font-family:&quot;Calibri&quot;,sans-serif;&quot;>The &lt;/span>&lt;span style=&quot;font-family:Courier New;&quot;>RestrictedString&lt;/span>&lt;span style=&quot;font-family:&quot;Calibri&quot;,sans-serif;&quot;> data type is a restriction on the &lt;/span>&lt;span style=&quot;font-family:Courier New;&quot;>BasicString&lt;/span>&lt;span style=&quot;font-family:&quot;Calibri&quot;,sans-serif;&quot;> data type such that it does not include any double quote characters. This data type captures properties that were attributes in the XML model.&lt;/span>&lt;/span>&lt;/p></body>
       </ownedComment>
-      <generalization xmi:id="_IQ0otgffEeWHMeLsGlMIVw" general="_IQ0osAffEeWHMeLsGlMIVw"/>
+      <generalization xmi:id="_imG0TzedEeWKi8h462PcDQ" general="_imG0STedEeWKi8h462PcDQ"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:DataType" xmi:id="_IQ0otwffEeWHMeLsGlMIVw" name="CWE_ID">
-      <ownedComment xmi:id="_IQ0ouAffEeWHMeLsGlMIVw" annotatedElement="_IQ0otwffEeWHMeLsGlMIVw">
+    <packagedElement xmi:type="uml:DataType" xmi:id="_imG0UDedEeWKi8h462PcDQ" name="CWE_ID">
+      <ownedComment xmi:id="_imG0UTedEeWKi8h462PcDQ" annotatedElement="_imG0UDedEeWKi8h462PcDQ">
         <body>&lt;p>pattern is: &quot;CWE-\d+&quot;&lt;/p></body>
       </ownedComment>
-      <generalization xmi:id="_IQ0ouQffEeWHMeLsGlMIVw" general="_IQ0osAffEeWHMeLsGlMIVw"/>
+      <generalization xmi:id="_imG0UjedEeWKi8h462PcDQ" general="_imG0STedEeWKi8h462PcDQ"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:DataType" xmi:id="_IQ0ougffEeWHMeLsGlMIVw" name="CCE_ID">
-      <ownedComment xmi:id="_IQ0ouwffEeWHMeLsGlMIVw" annotatedElement="_IQ0ougffEeWHMeLsGlMIVw">
+    <packagedElement xmi:type="uml:DataType" xmi:id="_imG0UzedEeWKi8h462PcDQ" name="CCE_ID">
+      <ownedComment xmi:id="_imG0VDedEeWKi8h462PcDQ" annotatedElement="_imG0UzedEeWKi8h462PcDQ">
         <body>&lt;p>pattern is: &quot;CCE-\d+-\d&quot;&lt;/p></body>
       </ownedComment>
-      <generalization xmi:id="_IQ0ovAffEeWHMeLsGlMIVw" general="_IQ0osAffEeWHMeLsGlMIVw"/>
+      <generalization xmi:id="_imG0VTedEeWKi8h462PcDQ" general="_imG0STedEeWKi8h462PcDQ"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:DataType" xmi:id="_IQ0ovQffEeWHMeLsGlMIVw" name="Boolean"/>
-    <packagedElement xmi:type="uml:DataType" xmi:id="_IQ0ovgffEeWHMeLsGlMIVw" name="Integer"/>
-    <packagedElement xmi:type="uml:DataType" xmi:id="_IQ0ovwffEeWHMeLsGlMIVw" name="Duration"/>
-    <packagedElement xmi:type="uml:DataType" xmi:id="_IQ0owAffEeWHMeLsGlMIVw" name="CAPEC_ID">
-      <ownedComment xmi:id="_IQ0owQffEeWHMeLsGlMIVw" annotatedElement="_IQ0owAffEeWHMeLsGlMIVw">
+    <packagedElement xmi:type="uml:DataType" xmi:id="_imG0VjedEeWKi8h462PcDQ" name="Boolean"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_imG0VzedEeWKi8h462PcDQ" name="Integer"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_imG0WDedEeWKi8h462PcDQ" name="Duration"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_imG0WTedEeWKi8h462PcDQ" name="CAPEC_ID">
+      <ownedComment xmi:id="_imG0WjedEeWKi8h462PcDQ" annotatedElement="_imG0WTedEeWKi8h462PcDQ">
         <body>&lt;p>pattern is: &quot;CAPEC-\d+&quot;&lt;/p></body>
       </ownedComment>
-      <generalization xmi:id="_IQ0owgffEeWHMeLsGlMIVw" general="_IQ0osAffEeWHMeLsGlMIVw"/>
+      <generalization xmi:id="_imG0WzedEeWKi8h462PcDQ" general="_imG0STedEeWKi8h462PcDQ"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:DataType" xmi:id="_IQ0owwffEeWHMeLsGlMIVw" name="LanguageCode">
-      <ownedComment xmi:id="_IQ0oxAffEeWHMeLsGlMIVw" annotatedElement="_IQ0owwffEeWHMeLsGlMIVw">
+    <packagedElement xmi:type="uml:DataType" xmi:id="_imG0XDedEeWKi8h462PcDQ" name="LanguageCode">
+      <ownedComment xmi:id="_imG0XTedEeWKi8h462PcDQ" annotatedElement="_imG0XDedEeWKi8h462PcDQ">
         <body>&lt;p>see http://tools.ietf.org/html/rfc5646&lt;/p></body>
       </ownedComment>
-      <generalization xmi:id="_IQ0oxQffEeWHMeLsGlMIVw" general="_IQ0osAffEeWHMeLsGlMIVw"/>
+      <generalization xmi:id="_imG0XjedEeWKi8h462PcDQ" general="_imG0STedEeWKi8h462PcDQ"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Interface" xmi:id="_IQ0oxgffEeWHMeLsGlMIVw" name="PatternExpression"/>
-    <packagedElement xmi:type="uml:DataType" xmi:id="_IQ0oxwffEeWHMeLsGlMIVw" name="Decimal"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_imG0XzedEeWKi8h462PcDQ" name="PatternExpression"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_imG0YDedEeWKi8h462PcDQ" name="Decimal"/>
   </packagedElement>
-  <profileApplication xmi:id="_IQ0oyAffEeWHMeLsGlMIVw">
-    <eAnnotations xmi:id="_IQ0oyQffEeWHMeLsGlMIVw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+  <profileApplication xmi:id="_imG0YTedEeWKi8h462PcDQ">
+    <eAnnotations xmi:id="_imG0YjedEeWKi8h462PcDQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
       <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
     </eAnnotations>
     <appliedProfile href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
