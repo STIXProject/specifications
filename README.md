@@ -9,7 +9,7 @@ This repository contains a DRAFT UML data model for STIX 1.2, together with acco
 
 ### Specification Documents
 
-The directory *documents* contains the specification documents.  Only the ones listed below in **bold** are currently available:
+The directory *documents* contains the specification documents.
 
 * STIX_Campaign_Draft.docx
 * STIX_COA_Draft.docx
