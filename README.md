@@ -42,6 +42,6 @@ The subdirectory *pdf versions* contains PDF versions of the available documents
 
 Observables will be covered in the CybOX specification documents, which will be developed once the STIX specification documents are final.
 
-As drafts, basing any implementation on these documents is *strongly* discouraged.
+As drafts, basing any implementation directly on these documents is *strongly* discouraged.
 
 
