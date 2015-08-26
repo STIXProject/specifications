@@ -24,11 +24,7 @@ In addition, we have provided the UML models in UML 2.2 open-source format, whic
 The directory *documents* contains the specification documents.
 
 * STIX_Campaign_Draft.docx
-<<<<<<< HEAD
 * STIX_COA_Draft.docx
-=======
-* STIX_COA_Draft.docx*
->>>>>>> master
 * STIX_Common_Draft.docx
 * STIX_Core_Draft.docx
 * STIX_DataMarking_Draft.docx
@@ -36,10 +32,7 @@ The directory *documents* contains the specification documents.
 * STIX_Extensions_Draft.docx
 * STIX_Incident_Draft.docx
 * STIX_Indicator_Draft.docx
-<<<<<<< HEAD
 * STIX_Report_Draft.docx
-=======
->>>>>>> master
 * STIX_SpecOverview_Draft.docx
 * STIX_ThreatActor_Draft.docx
 * STIX_TTP_Draft.docx
@@ -49,10 +42,7 @@ The subdirectory *pdf versions* contains PDF versions of the available documents
 
 Observables will be covered in the CybOX specification documents, which will be developed once the STIX specification documents are final.
 
-<<<<<<< HEAD
-As drafts, basing any implementation directly on these documents is *strongly* discouraged.
-=======
 Basing an implementation *directly* on these documents is discouraged, as they are drafts.
->>>>>>> master
+
 
 
