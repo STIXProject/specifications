@@ -1,6 +1,8 @@
 # STIX Specifications
 DRAFT STIX specification documents for version 1.2.1
 
+### UML Model Serialization
+
 This repository contains a DRAFT UML data model for STIX 1.2.1, together with accompanying specification documentation. 
 
 The data models are represented using XMI.  They were created using Rational Software Architect (RSA).  It is expected that they will be able to be imported into other UML tools.
