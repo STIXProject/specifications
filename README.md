@@ -11,18 +11,22 @@ The directory *data_models* contains three separate UML models:
 * CYBOX.emx (this is not an official normative model for CybOX but rather just a draft model to help frame the STIX models)
 * BasicTypes.emx
 
-The data models are represented using XMI.  They were created using Rational Software Architect (RSA).  It is expected that they will be able to be imported into other UML tools.  Currently, there are no diagrams in the CybOX model.
+The data models are represented using XMI.  They were created using Rational Software Architect (RSA).  It is expected that they will be able to be imported into other UML tools.
+
+The UML models are provided in the RSA tool native .EMX format that represents the full model and all diagrams. This will be useful for those with UML tools that can import .EMX files.
 
 In addition, we have provided the UML models in UML 2.2 open-source format, which might be easier to import into your UML tool.  However, that format does not support diagrams.
 
+* STIX.emx
 * STIX.uml
-* CYBOX.uml (this is not an official normative model for CybOX but rather just a draft model to help frame the STIX models)
+* BasicTypes.emx
 * BasicTypes.uml
+
+The full set of UML diagrams leveraged throughout the multipart STIX specification are also provided as separate .PNG files.
 
 ### Specification Documents
 
 This directory will stage the STIX specification documents using the OASIS format.
-
 
 Observables will be covered in the CybOX specification documents, which will be developed once the STIX specification documents are final.
 
