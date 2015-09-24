@@ -3,14 +3,6 @@ DRAFT STIX specification documents for version 1.2.1
 
 This repository contains a DRAFT UML data model for STIX 1.2.1, together with accompanying specification documentation. 
 
-### Data Models
-
-The directory *data_models* contains three separate UML models:
-
-* STIX.emx
-* CYBOX.emx (this is not an official normative model for CybOX but rather just a draft model to help frame the STIX models)
-* BasicTypes.emx
-
 The data models are represented using XMI.  They were created using Rational Software Architect (RSA).  It is expected that they will be able to be imported into other UML tools.
 
 The UML models are provided in the RSA tool native .EMX format that represents the full model and all diagrams. This will be useful for those with UML tools that can import .EMX files.
