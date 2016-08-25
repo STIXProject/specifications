@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Standard="http://www.eclipse.org/uml2/schemas/Standard/1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/uml2/schemas/Standard/1 pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w">
+  <uml:Model xmi:id="_7yKF4CkGEdmDdasWev0kGA" name="XSDDataTypes">
+    <packageImport xmi:id="_7yKF7CkGEdmDdasWev0kGA">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_7yKF7SkGEdmDdasWev0kGA" name="XSDDataTypes">
+      <packagedElement xmi:type="uml:Class" xmi:id="_Dz_WsLt1Edm5yoFwcoq6CA" name="anyType"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_N8FBALt1Edm5yoFwcoq6CA" name="anySimpleType"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_7yKGBSkGEdmDdasWev0kGA" name="anyURI"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_7yKF-CkGEdmDdasWev0kGA" name="base64Binary"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_7yKF9ykGEdmDdasWev0kGA" name="boolean"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_7yKGESkGEdmDdasWev0kGA" name="byte"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_7yKF8SkGEdmDdasWev0kGA" name="date"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_7yKF7ykGEdmDdasWev0kGA" name="dateTime"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_7yKGCSkGEdmDdasWev0kGA" name="decimal"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_7yKGCCkGEdmDdasWev0kGA" name="double"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_7yKF7ikGEdmDdasWev0kGA" name="duration"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_7yKGAykGEdmDdasWev0kGA" name="ENTITY"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_GQMZ4PSNEdmaNPZenjPBdg" name="ENTITIES"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_7yKGBykGEdmDdasWev0kGA" name="float"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_7yKF9SkGEdmDdasWev0kGA" name="gDay"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_7yKF9ikGEdmDdasWev0kGA" name="gMonth"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_7yKF9CkGEdmDdasWev0kGA" name="gMonthDay"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_7yKF8ykGEdmDdasWev0kGA" name="gYear"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_7yKF8ikGEdmDdasWev0kGA" name="gYearMonth"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_7yKF-SkGEdmDdasWev0kGA" name="hexBinary"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_7yKGASkGEdmDdasWev0kGA" name="ID"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_7yKGAikGEdmDdasWev0kGA" name="IDREF"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_DwmyAPSNEdmaNPZenjPBdg" name="IDREFS"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_7yKGDykGEdmDdasWev0kGA" name="int"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_7yKGCikGEdmDdasWev0kGA" name="integer"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_7yKF_SkGEdmDdasWev0kGA" name="language"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_7yKGDCkGEdmDdasWev0kGA" name="long"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_7yKF_ikGEdmDdasWev0kGA" name="Name"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_7yKGACkGEdmDdasWev0kGA" name="NCName"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_7yKF_ykGEdmDdasWev0kGA" name="NMTOKEN"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_7BDA4PSMEdmaNPZenjPBdg" name="NMTOKENS"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_7yKF-ykGEdmDdasWev0kGA" name="normalizedString"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_7yKGBikGEdmDdasWev0kGA" name="NOTATION"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_7yKGDSkGEdmDdasWev0kGA" name="negativeInteger"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_7yKGDikGEdmDdasWev0kGA" name="nonNegativeInteger"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_7yKGCykGEdmDdasWev0kGA" name="nonPositiveInteger"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_7yKGEykGEdmDdasWev0kGA" name="positiveInteger"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_7yKGBCkGEdmDdasWev0kGA" name="QName"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_7yKGECkGEdmDdasWev0kGA" name="short"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_7yKF-ikGEdmDdasWev0kGA" name="string"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_7yKF8CkGEdmDdasWev0kGA" name="time"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_7yKF_CkGEdmDdasWev0kGA" name="token"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_7yKGFSkGEdmDdasWev0kGA" name="unsignedByte"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_7yKGFCkGEdmDdasWev0kGA" name="unsignedInt"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_7yKGEikGEdmDdasWev0kGA" name="unsignedLong"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_7yKGFikGEdmDdasWev0kGA" name="unsignedShort"/>
+    </packagedElement>
+    <profileApplication xmi:id="_7yKF6SkGEdmDdasWev0kGA">
+      <eAnnotations xmi:id="_7yKF6ikGEdmDdasWev0kGA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+  </uml:Model>
+  <Standard:ModelLibrary xmi:id="_XdOvQOXgEdqb8pUM0sV1FQ" base_Package="_7yKF4CkGEdmDdasWev0kGA"/>
+</xmi:XMI>
